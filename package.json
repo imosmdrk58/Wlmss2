@@ -1,27 +1,23 @@
 {
-  "name": "v12welcome",
   "version": "0.0.1",
-  "description": "Ozi Welcome Bot",
-  "main": "ozi.js",
+  "main": "kei.js",
   "scripts": {
-    "start": "node ozi.js"
+    "start": "node kei.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
-    "discord.js": "^12.5.3",
-    "ffmpeg": "^0.0.4",
-    "ffmpeg-static": "^4.3.0",
-    "fs": "^0.0.1-security",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.0",
+    "humanize-duration": "^3.25.1",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
-    "opusscript": "^0.0.7"
+    "mongoose": "^5.11.9",
+    "opusscript": "0.0.8",
+    "request": "^2.88.2",
+    "ffmpeg": "^0.0.4",
+    "avconv": "^3.1.0",
+    "ffmpeg-static": "^4.3.0"
   },
   "engines": {
     "node": "12.x"
-  },
-  "license": "MIT",
-  "keywords": [
-    "ozi",
-    "welcome"
-  ]
+  }
 }
